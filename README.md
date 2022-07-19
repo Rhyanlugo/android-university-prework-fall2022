@@ -31,6 +31,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+* I spent about 15 or so minutes researching and implementing the rotation animation for the image on a button press. Was relatively simple since I just used the toast line as an example of how to cause an event once the button was pressed. 
 
 ## License
 
