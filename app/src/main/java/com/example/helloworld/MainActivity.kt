@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity()
@@ -14,9 +15,11 @@ class MainActivity : AppCompatActivity()
 		setContentView(R.layout.activity_main)
 
 		val button = findViewById<Button>(R.id.helloButton)
+		val image = findViewById<ImageView>(R.id.gatorsImageView)
 		button.setOnClickListener {
 			Log.v("Hello world", "Button has been clicked")
 			Toast.makeText(this, "Hello to you too!", Toast.LENGTH_SHORT).show()
+			image.animate().rotation(image.rotation + 360).start()
 		}
 	}
 }
