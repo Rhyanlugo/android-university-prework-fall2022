@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="rhyan_intro">Hello World! My name is Rhyan Lugo Crespo and I am a student at the University of Florida.</string>
+    <string name="hello_button">Say Hello</string>
+    <string name="gator_logo_description">University of Florida gator logo.</string>
+</resources>
